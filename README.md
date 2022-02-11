@@ -13,3 +13,6 @@
 
 ###### "otobusler" veritabanı içerisinde ilgili otobüs numarasına sahip tablodaki 0. indexin düzenli olarak değiştirilmesi gerekir
 ###### x,y ve hız bilgilerini kullanarak hesaplama yaptığı için bu bilgilerin düzenli olarak yenilenmesi gerekir
+
+
+Örnek veritabanları ("otobusler","duraklar") mevcuttur
