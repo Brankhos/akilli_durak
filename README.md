@@ -9,10 +9,11 @@
 ###### Olabildiğince minimum düzeyde ve düzgün veritabanı kullanıldığı için denetlenmesi kolaydır
 ###### Web arayüzü 10 saniyede 1 kendini otomatik olarak yeniler
 
+
 ## Nelere ihtiyaç duyar
 
 ###### "otobusler" veritabanı içerisinde ilgili otobüs numarasına sahip tablodaki 0. indexin düzenli olarak değiştirilmesi gerekir
 ###### x,y ve hız bilgilerini kullanarak hesaplama yaptığı için bu bilgilerin düzenli olarak yenilenmesi gerekir
-
+###### Bu verileri güncellemek için basit bir REST API kullanır
 
 Örnek veritabanları ("otobusler","duraklar") mevcuttur
