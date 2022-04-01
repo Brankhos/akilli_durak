@@ -21,36 +21,37 @@
 
 Örnek veritabanında aşağıdaki otobüsler ve duraklar mevcuttur.
 
-![Örnek veritabanı](https://ibb.co/tDhqS1K)
+![Örnek veritabanı](https://i.ibb.co/1Tnr34Q/aa.png)
 
 Duraklar veritabanı aşağıdaki gibi kayıt edilmiştir. Her duraktan hangi otobüsün geçtiği yazmaktadır. Sağdaki kısımda "Marianne Molu" durağından geçen otobüsler gözükmektedir.
 
-![Örnek duraklar](https://ibb.co/ZmFk5bc)
+![Örnek duraklar](https://i.ibb.co/zJB0ptP/b.png)
 
 Örnek otobüsler aşağıdaki gibi kaydedilmiştir. İlk idx otobüsün konumunu temsil etmektedir. Sonrakiler otobüsün ilk kalkışından itibaren geçmesi gereken durakların konum bilgilerini içermektedir. Sağdaki görsel ise 505_1 numaralı otobüsün içerdiği bilgiyi göstermektedir.
 
-![örnek otobüsler](https://ibb.co/gRBxtqY) ![örnek otobüs içeriği](https://ibb.co/pJgQGn8)
+![örnek otobüsler](https://i.ibb.co/x7RNz9Z/c.png) ![örnek otobüs içeriği](https://i.ibb.co/gzGdH6p/d.png)
 
 Aşağıda Flask ile tasarlanmış WEB arayüzü örneği bulunmaktadır. Kullanıcı seçmek istediği otobüsün seçimini yapar.
 
-![Örnek web duraklar seçimi](https://ibb.co/M6bBmp5)
+![Örnek web duraklar seçimi](https://i.ibb.co/C2qPfvs/e.png)
 
 Otobüs seçimi yapıldıktan sonra aşağıdaki gibi otobüslerin seçilen durağa kalan süreleri gözükecektir. İlk görsel sadece durağa en yakın olan otobüsün kalan süresini gösterecektir. /dedug kısmında ise bütün otobüsler gözükecektir. Soldaki normal, sağdaki ise Debug halidir.
 
-![örnek otobüsler](https://ibb.co/mT8x20f) ![örnek otobüsler debug](https://ibb.co/h7ppDwY)
+![örnek otobüsler](https://i.ibb.co/LR5GcrV/g.png) ![örnek otobüsler debug](https://i.ibb.co/xCVVJdF/f.png)
 
 
 # REST API
 
 get /guncelle aracılığı ile istenilen otobüsün konumu güncellenebilir. Aldığı parametreler aşağıdaki gibidir.
 
-otobus -> hangi otobüsün konumu değiştirileceği belirlenir
-x -> otobüsün gps aracılığıyla elde edilen x koordinatıdır
-y -> otobüsün gps aracılığıyla elde edilen y koordinatıdır
+otobus -> hangi otobüsün konumu değiştirileceği belirlenir.
+x -> otobüsün gps aracılığıyla elde edilen x koordinatıdır.
+y -> otobüsün gps aracılığıyla elde edilen y koordinatıdır.
 hiz -> otobüsün gps aracılığıyla elde edilen hızıdır.
 
 örnek hali şu şekildedir
 
 get /gundelle?x=35,6&y=24,6&hiz=20&otobus=505_2
 
+eğer işlem başarılıysa "OK" bilgisi gönderir.
 
