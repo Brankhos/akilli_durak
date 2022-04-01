@@ -45,8 +45,11 @@ Otobüs seçimi yapıldıktan sonra aşağıdaki gibi otobüslerin seçilen dura
 get /guncelle aracılığı ile istenilen otobüsün konumu güncellenebilir. Aldığı parametreler aşağıdaki gibidir.
 
 otobus -> hangi otobüsün konumu değiştirileceği belirlenir.
+
 x -> otobüsün gps aracılığıyla elde edilen x koordinatıdır.
+
 y -> otobüsün gps aracılığıyla elde edilen y koordinatıdır.
+
 hiz -> otobüsün gps aracılığıyla elde edilen hızıdır.
 
 örnek hali şu şekildedir
