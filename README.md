@@ -54,7 +54,8 @@ hiz -> otobüsün gps aracılığıyla elde edilen hızıdır.
 
 örnek hali şu şekildedir
 
-get /gundelle?x=35,6&y=24,6&hiz=20&otobus=505_2
+get /guncelle?x=35,6&y=24,6&hiz=20&otobus=505_2
 
 eğer işlem başarılıysa "OK" bilgisi gönderir.
 
+Simülasyon [LİNKİ](https://youtu.be/A2EjIzUF2Sk)
