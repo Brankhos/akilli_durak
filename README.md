@@ -1,5 +1,7 @@
 # Akıllı Durak
 
+> Erciyes Üniversitesinde Bitirme Ödevi olarak yapılmıştır.
+
 ## Neler İçerir
 
 ###### Kalan mesafeyi dünyanın geometrik şekline göre hesaplar
