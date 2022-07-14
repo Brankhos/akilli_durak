@@ -2,6 +2,8 @@
 
 > Erciyes Üniversitesinde Bitirme Ödevi olarak yapılmıştır.
 
+Simülasyon [LİNKİ](https://youtu.be/A2EjIzUF2Sk)
+
 ## Neler İçerir
 
 ###### Kalan mesafeyi dünyanın geometrik şekline göre hesaplar
@@ -60,4 +62,4 @@ get /guncelle?x=35,6&y=24,6&hiz=20&otobus=505_2
 
 eğer işlem başarılıysa "OK" bilgisi gönderir.
 
-Simülasyon [LİNKİ](https://youtu.be/A2EjIzUF2Sk)
+
